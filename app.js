@@ -9,7 +9,7 @@ app.get(
     '/get-poem',
     async (req, res) => {
         const response = await chatCompletion(
-            "Write a short, expressive poem about lemons, as if you are hungry. Just four lines!"
+            "Write a short, expressive poem about lemons, as if you are hungry, but sprinkle it with lyrics from Beyonce songs. Just four lines!"
         );
         res.send({ poem: response });
     }
