@@ -3,7 +3,7 @@ import chatCompletion from './services/openai.js';
 
 const app = express();
 
-app.use(express.static('public'));
+app.use(express.static('docs'));
 
 app.get(
     '/get-poem',
