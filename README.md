@@ -18,4 +18,4 @@ Original work by [@hortfrancis](https://github.com/hortfrancis/lemon-poem-genera
 - CSS
 - JavaScript
 
-[![Lemonade poem generator](docs/screenshot.png)]
+![Lemonade poem generator](docs/screenshot.png)
